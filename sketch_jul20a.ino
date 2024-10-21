@@ -1,13 +1,13 @@
 #define BLYNK_TEMPLATE_ID "TMPL3qRih-wLo"
 #define BLYNK_TEMPLATE_NAME "ESP8266 RELAY"
-#define BLYNK_AUTH_TOKEN "4VnSkWYYLOWiRH6sPsZtmyisynj4-fY3"
+#define BLYNK_AUTH_TOKEN "AUTH_TOKEN"
 #define BLYNK_PRINT Serial
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char ssid[] = "Ohayooo";
-char pass[] = "09876543";
+char ssid[] = "wifi";
+char pass[] = "pass";
 
 char auth[] = BLYNK_AUTH_TOKEN;  
 
